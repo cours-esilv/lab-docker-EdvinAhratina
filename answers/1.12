@@ -1,0 +1,2 @@
+docker run -d -p 8081:80 -e WS_BACK_URL=http://infallible_cray:5000 --name frontend myfrontend
+
