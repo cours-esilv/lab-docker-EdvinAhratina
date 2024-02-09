@@ -1,1 +1,1 @@
-docker run -p 5000:5000 -e "FLASK_APP=app.py" -e "CURRENT_ENVIRONMENT=production" dockerimage
+docker run -p 5000:5000 -E FLASK_APP=app.py -E CURRENT_ENVIRONMENT=production dockerimage
